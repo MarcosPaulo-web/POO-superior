@@ -1,8 +1,14 @@
 package com.superior.poo.model;
 
 import jakarta.persistence.*;
+import lombok.AllArgsConstructor;
+import lombok.Data;
+import lombok.NoArgsConstructor;
 
 //MODEL : O arquivo serve como um espelho da tabela do banco
+@AllArgsConstructor
+@NoArgsConstructor
+@Data
 
 @Entity // fala que ele é uma entidade no banco de dados (Tabela)
 @Table(name = "TBPRODUTO")//para nomear a tabela
